@@ -1,0 +1,20 @@
+{
+  "name": "advice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bulid": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "-": "^0.0.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.8",
+    "typescript": "^5.5.4"
+  }
+}
